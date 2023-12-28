@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #0e1c37;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+nav li {
+    margin-right: 60px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+  
+nav a:hover {
+    color: #666;
+}
