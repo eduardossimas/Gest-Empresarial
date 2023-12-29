@@ -3,38 +3,56 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
     background-color: #0e1c37;
+}
+
+.header img {
+    width: 300px;
+    height: auto;
+    margin: 0;
 }
 
 nav {
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
-  
+
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
 }
-  
+
 nav li {
-    margin-right: 60px;
+    margin: 0 20px;
 }
-  
+
 nav a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
-  
+
 nav a:hover {
-    color: #666;
+    color: #c1ab89;
+}
+
+
+
+#inicio p {
+    color: black;
+    width: 33.33%;
+    margin: 90px 200px 30px;
+    padding: 20px;
+    font-size: 30px;
 }
