@@ -1,58 +1,156 @@
 body {
     margin: auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Gilroy ExtraBold', sans-serif;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
     background-color: #0e1c37;
 }
 
-.header img {
-    width: 300px;
+.navbar-light .navbar-toggler {
+    background-color: transparent;
+}
+
+
+.navbar-brand img {
+    width: 250px;
     height: auto;
-    margin: 0;
 }
 
-nav {
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-nav a {
-    text-decoration: none;
+.navbar-nav .nav-link {
     color: #ffffff;
     font-weight: bold;
 }
 
-nav a:hover {
+.navbar-nav .nav-link:hover {
     color: #c1ab89;
+}
+
+.navbar-nav .nav-item {
+    margin: 20px 25px;
+}
+
+.navbar-toggler i {
+    color: white;
 }
 
 
 
-#inicio p {
-    color: black;
-    width: 33.33%;
-    margin: 90px 200px 30px;
-    padding: 20px;
-    font-size: 30px;
+.inicio-background {
+    position: relative;
+    background-image: url('./images/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.inicio-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.inicio-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 70%;
+}
+
+.inicio-text span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #c1ab89;
+}
+
+
+#sobre .card {
+    background-color: #0e1c37; /* Altere para a cor que desejar */
+    margin-top: 50px; /* Altere para o espaçamento que desejar */
+    margin-bottom: 50px; /* Altere para o espaçamento que desejar */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4); /* Adiciona sombra */
+}
+
+#sobre .card .card-body {
+    color: #ffffff; /* Altere para a cor que desejar */
+}
+
+#sobre .card .card-body h2 {
+    text-transform: uppercase;
+    color: #c1ab89;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#sobre .card .card-body p {
+    font-size: 18px;
+}
+
+#sobre .card .card-body .img-fluid {
+    background-color: #c1ab89;
+    border-color: #c1ab89;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+.card-body h2 {
+    text-transform: uppercase;
+    color: #0e1c37;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.btn-custom {
+    background-color: #0e1c37; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+}
+
+.btn-custom:hover {
+    background-color: #c1ab89; /* Cor de fundo do botão quando o mouse está sobre ele */
+    color: #ffffff; /* Cor do texto do botão quando o mouse está sobre ele */
+}
+
+
+footer {
+    background-color: #0e1c37;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contato-footer {
+    color: #ffffff;
+}
+
+.contato-footer:hover {
+    color: #c1ab89;
+}
+
+.menu {
+    color: #ffffff;
+}
+
+.menu:hover {
+    color: #c1ab89;
+}
+
+.social-icon{
+    color:#ffffff;
+}
+
+.social-icon:hover {
+    color: #c1ab89; /* Muda a cor para vermelho quando o mouse passa sobre o ícone */
 }
