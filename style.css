@@ -34,13 +34,61 @@ body {
     color: white;
 }
 
+.home {
+    position: relative;
+    background-image: url('./images/nordwood-themes-kRNZiGKtz48-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.texto-home {
+    color: #0e1c37;
+}
+
+.texto-home span {
+    color: #ffffff;
+}
+
+
+.diretrizes {
+    background-color: #ffffff;
+}
+
+.card-diretriz {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    transition: transform .3s, box-shadow .3s;
+}
+
+.card-diretriz:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #c1ab89; 
+}
+
+.card-text {
+    color: #0e1c37; /* Cor do texto */
+}
 
 
 .inicio-background {
     position: relative;
     background-image: url('./images/sean-pollock-PhYq704ffdA-unsplash.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 10% center;
     height: 500px;
 }
 
