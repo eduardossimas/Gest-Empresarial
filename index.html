@@ -13,12 +13,29 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Gest Empresarial</title>
 </head>
 
 <body>
+    <script>
+        AOS.init(
+            {
+                once: true,
+                duration: 1200,
+            }
+        );
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -29,7 +46,7 @@
 
 
 
-    
+
     <header class="header">
         <nav class="navbar col-10 m-auto navbar-expand-lg">
             <a class="navbar-brand" href="#inicio">
@@ -60,10 +77,13 @@
         <section id="inicio">
 
             <div class="home d-flex align-items-center">
-                <div class="texto-home texto-esquerda col-md-6 offset-md-1 pl-md-5">
-                    <h1>CONTABILIDADE <span>INTELIGENTE</span> PARA <span>PEQUENAS</span> E <span>MÉDIAS</span>
-                        EMPRESAS</h1>
-                    <p>Contabilidade Inteligente para Pequenas e Médias Empresas</p>
+                <div class="texto-home texto-esquerda col-md-6 offset-md-1 pl-md-5" data-aos="fade-right">
+                    <h1>TRANSFORME <span>NÚMEROS</span> EM ESTRATÉGIAS <span>VENCEDORAS</span></h1>
+                    <div data-aos="fade-left" data-aos-offset="200">
+                        <p>Impulsionando o crescimento da sua empresa com consultoria, 
+                            assessoria e BPO, dedicando a elevar pequenas e médias empresas ao próximo 
+                            nível de excelência e eficiência</p>
+                    </div>
                     <a href="#contato" class="btn btn-custom">Entre em contato</a>
                 </div>
             </div>
@@ -72,30 +92,39 @@
             <div class="diretrizes d-flex justify-content-center">
                 <div class="container m-3 d-flex justify-content-center">
                     <div class="row d-flex justify-content-center  mb-5 mt-5">
-                        <div class="col-md-3 mb-3 mt-3">
+                        <div class="col-md-3 mb-3 mt-3" data-aos="fade-up">
                             <div class="card-diretriz">
-                                <div class="card-body">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-bullseye icon-diretriz"></i>
                                     <h5 class="card-title text-center">Missão</h5>
-                                    <p class="card-text">Estar ao lado e apoiar empreendedores e empresários a atingirem seus objetivos.</p>
+                                    <p class="card-text">Estar ao lado e apoiar empreendedores e empresários a atingirem
+                                        seus objetivos.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 mb-3 mt-3">
+                        <div class="col-md-3 mb-3 mt-3" data-aos="fade-up">
                             <div class="card-diretriz">
-                                <div class="card-body">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-eye-fill icon-diretriz"></i>
                                     <h5 class="card-title text-center">Visão</h5>
-                                    <p class="card-text">Ser referência em soluções gerenciais para empreendedores e empresários de micro e pequenas empresas de Juiz de Fora e região.</p>
+                                    <p class="card-text">Ser referência em soluções gerenciais para empreendedores e
+                                        empresários de micro e pequenas empresas de Juiz de Fora e região.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 mb-3 mt-3">
+                        <div class="col-md-4 mb-3 mt-3" data-aos="fade-up">
                             <div class="card-diretriz">
-                                <div class="card-body">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-award-fill icon-diretriz"></i>
                                     <h5 class="card-title text-center">Valor</h5>
                                     <div class="cart-text">
                                         <p class="card-text">
-                                            Na nossa empresa, a ética é nossa base, guiando todas as ações. Comprometemo-nos com soluções excelentes, inovando constantemente para não estagnar. 
-                                            Valorizamos relacionamentos próximos para entender melhor as necessidades e estamos sempre aprendendo, buscando oferecer as melhores soluções possíveis.</p>
+                                            Na nossa empresa, a ética é nossa base, guiando todas as ações.
+                                            Comprometemo-nos com soluções excelentes, inovando constantemente para não
+                                            estagnar.
+                                            Valorizamos relacionamentos próximos para entender melhor as necessidades e
+                                            estamos sempre aprendendo, buscando oferecer as melhores soluções possíveis.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -107,58 +136,30 @@
 
             <div class="inicio-background">
                 <div class="inicio-text">
-                    <h1>CUIDAMOS DOS <span>NÚMEROS</span>, ENQUANTO OS EMPRESÁRIOS SE CONCENTRAM NO <span>CRESCIMENTO</span>
-                        DE SUAS EMPRESAS</h1>
+                    <h1>CUIDAMOS DOS <span>NÚMEROS</span>, ENQUANTO VOCÊ SE CONCENTRA NO <span>CRESCIMENTO</span>
+                        DE SUA EMPRESA</h1>
                 </div>
             </div>
 
-        </section>
 
 
 
-        <section id="sobre">
-            <div class="container d-flex justify-content-center">
-                <div class="card rounded col-12 mx-auto">
-                    <div class="card-body">
-                        <h2 class="card-title">Quem Somos?</h2>
-                        <p class="card-text">Somos uma empresa comprometida em impulsionar o crescimento e o sucesso de
-                            micro e pequenas empresas por meio de serviços de consultoria, assessoria e BPO financeiro.
-                        </p>
-                        <p>Atuamos como parceiros estratégicos, proporcionando soluções personalizadas e orientadas para
-                            resultados. Temos como objetivo enfrentar os desafios do mercado atual e assegurar o
-                            crescimento sustentável.</p>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section id="servicos">
-            <!-- Conteúdo da seção Serviços -->
-        </section>
+
         <section id="contato">
-            <div class="container d-flex justify-content-center">
-                <div class="card rounded col-12">
-                    <div class="card-body">
-                        <h2 class="card-title text-center">Contato</h2>
-                        <form action="enviar_email.php" method="POST">
-                            <div class="form-group">
-                                <label for="nome">Nome</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Seu email">
-                            </div>
-                            <div class="form-group">
-                                <label for="mensagem">Mensagem</label>
-                                <textarea class="form-control" id="mensagem" rows="3"
-                                    placeholder="Sua mensagem"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-custom">Enviar</button>
-                        </form>
-                    </div>
+            <div class="contact-section mt-5 mb-3">
+                <div class="container text-center p-5">
+                    <h2 class="mb-4">E ENTÃO, VAMOS <span>CONVERSAR</span>?</h2>
+                    <p>Entre em contato via WhatsApp e tire suas dúvidas</p>
+                    <a href="https://wa.me/553284630707" target="_blank" class="btn btn-success btn-lg mt-3">
+                        <i class="bi bi-whatsapp"></i> WhatsApp
+                    </a>
                 </div>
             </div>
         </section>
+
+
+
     </main>
     <footer class="text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
@@ -169,8 +170,11 @@
                 <div class="col-md-3,5 mx-auto mt-3 mt-md-0">
                     <h5>Contato</h5>
                     <ul class="list-unstyled">
-                        <li><a href="mailto:atendimento@gestempresarial.com.br" target="_blank" class="contato-footer"><i class="bi bi-envelope-fill"></i> atendimento@gestempresarial.com.br</a></li>
-                        <li><a href="https://wa.me/553284630707" target="_blank" class="contato-footer"><i class="bi bi-whatsapp"></i>      (32) 8463-0707</a></li>
+                        <li><a href="mailto:atendimento@gestempresarial.com.br" target="_blank"
+                                class="contato-footer"><i class="bi bi-envelope-fill"></i>
+                                atendimento@gestempresarial.com.br</a></li>
+                        <li><a href="https://wa.me/553284630707" target="_blank" class="contato-footer"><i
+                                    class="bi bi-whatsapp"></i> (32) 8463-0707</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 mx-auto mt-3 mt-md-0">
@@ -185,9 +189,12 @@
                 <div class="col-md-3 mx-auto mt-3 mt-md-0">
                     <h5>Redes Sociais</h5>
                     <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"><a href="link_do_instagram" target="_blank" class="social-icon"><i class="bi bi-instagram" style="font-size: 2rem;"></i></a></li>
-                        <li class="list-inline-item"><a href="link_do_facebook" target="_blank" class="social-icon"><i class="bi bi-facebook" style="font-size: 2rem;"></i></a></li>
-                        <li class="list-inline-item"><a href="link_do_linkedin" target="_blank" class="social-icon"><i class="bi bi-linkedin" style="font-size: 2rem;"></i></a></li>
+                        <li class="list-inline-item"><a href="link_do_instagram" target="_blank" class="social-icon"><i
+                                    class="bi bi-instagram" style="font-size: 2rem;"></i></a></li>
+                        <li class="list-inline-item"><a href="link_do_facebook" target="_blank" class="social-icon"><i
+                                    class="bi bi-facebook" style="font-size: 2rem;"></i></a></li>
+                        <li class="list-inline-item"><a href="link_do_linkedin" target="_blank" class="social-icon"><i
+                                    class="bi bi-linkedin" style="font-size: 2rem;"></i></a></li>
                     </ul>
                 </div>
             </div>

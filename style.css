@@ -39,7 +39,7 @@ body {
     background-image: url('./images/nordwood-themes-kRNZiGKtz48-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 90vh;
 }
 
 .home::before {
@@ -60,12 +60,37 @@ body {
     color: #ffffff;
 }
 
+.texto-home h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.texto-home p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-custom {
+    margin-top: 20px;
+}
+
 
 .diretrizes {
     background-color: #ffffff;
 }
 
+.icon-diretriz {
+    background-color: #ffffff;
+    font-size: 2rem;
+    color: #0e1c37;
+    position: absolute;
+    top: -1.5rem; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .card-diretriz {
+    position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
     transition: transform .3s, box-shadow .3s;
 }
@@ -172,6 +197,29 @@ body {
 }
 
 
+
+.contact-section {
+    color: #ffffff;
+    background-color: #0e1c37; /* Cor de fundo azul da seção de contato */
+}
+
+.contact-section span {
+    color: #c1ab89;
+}
+
+.btn-success {
+    background-color: #25D366; /* Cor do botão do WhatsApp */
+    border-color: #25D366; /* Cor da borda do botão do WhatsApp */
+}
+
+/* Opcional: Se você quiser ajustar a forma do botão para se parecer mais com o da imagem */
+.btn-lg {
+    border-radius: 30px;
+    padding: .75rem 1.25rem;
+}
+
+
+
 footer {
     background-color: #0e1c37;
     color: #ffffff;
@@ -201,4 +249,31 @@ footer {
 
 .social-icon:hover {
     color: #c1ab89; /* Muda a cor para vermelho quando o mouse passa sobre o ícone */
+}
+
+
+/* Estilizando a barra de rolagem vertical */
+::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+    background: #0e1c37; /* Fundo transparente */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1ab89; /* Cor do polegar da barra de rolagem (50% de opacidade preta) */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #887861; /* Cor do polegar da barra de rolagem quando hover */
+}
+
+/* Estilizando a barra de rolagem horizontal (opcional) */
+::-webkit-scrollbar-track {
+    background: #0e1c37; /* Fundo transparente */
+}
+
+/* Escondendo a barra de rolagem nativa do Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
 }
