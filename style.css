@@ -143,6 +143,20 @@ body {
     color: #c1ab89;
 }
 
+.icon-bolinha {
+    position: relative;
+    font-size: 30vh;
+    color: #c1ab89;
+}
+
+.icon-servico {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15vh;
+    color: #ffffff;
+}
 
 #sobre .card {
     background-color: #0e1c37; /* Altere para a cor que desejar */
