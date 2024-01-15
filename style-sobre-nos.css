@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monteserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; 
+}
+
+.header {
+    background-color: #0e1c37;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: transparent;
+}
+
+
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c1ab89;
+}
+
+.navbar-nav .nav-item {
+    margin: 20px 25px;
+}
+
+.navbar-toggler i {
+    color: white;
+}
+
+.titulo h1{
+    color: #0e1c37;
+    font-weight: 700;
+
+}
+
+.sobre {
+    background-color: #0e1c37;
+    min-height: 59vh;
+}
+
+.texto-sobre {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #0e1c37;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contato-footer {
+    color: #ffffff;
+}
+
+.contato-footer:hover {
+    color: #c1ab89;
+}
+
+.menu {
+    color: #ffffff;
+}
+
+.menu:hover {
+    color: #c1ab89;
+}
+
+.social-icon{
+    color:#ffffff;
+}
+
+.social-icon:hover {
+    color: #c1ab89; /* Muda a cor para vermelho quando o mouse passa sobre o ícone */
+}
+
+
+/* Estilizando a barra de rolagem vertical */
+::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+    background: #0e1c37; /* Fundo transparente */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1ab89; /* Cor do polegar da barra de rolagem (50% de opacidade preta) */
+    border-radius: 30px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #887861; /* Cor do polegar da barra de rolagem quando hover */
+}
+
+/* Estilizando a barra de rolagem horizontal (opcional) */
+::-webkit-scrollbar-track {
+    background: #0e1c37; /* Fundo transparente */
+}
+
+/* Escondendo a barra de rolagem nativa do Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}

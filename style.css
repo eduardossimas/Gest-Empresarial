@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monteserrat', sans-serif;
+}
+
 body {
-    margin: auto;
-    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; 
 }
 
 .header {
@@ -233,6 +247,41 @@ body {
 }
 
 
+.servicos {
+    background-color: #ffffff;
+}
+
+.servicos h2 {
+    color: #0e1c37;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.icon-servico {
+    color: #0e1c37;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.servicos h3 {
+    color: #0e1c37;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    color: #0e1c37;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.servicos h4 {
+    color: #0e1c37;
+    font-weight: 550;
+    margin-top: 0.5rem;
+}
+
+
 
 footer {
     background-color: #0e1c37;
@@ -274,7 +323,7 @@ footer {
 
 ::-webkit-scrollbar-thumb {
     background: #c1ab89; /* Cor do polegar da barra de rolagem (50% de opacidade preta) */
-    border-radius: 10px; /* Borda arredondada */
+    border-radius: 30px; /* Borda arredondada */
 }
 
 ::-webkit-scrollbar-thumb:hover {
