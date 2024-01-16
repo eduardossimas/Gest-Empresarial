@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,22 +47,36 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.titulo h1{
+.texto h1 {
     color: #0e1c37;
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.titulo h2{
+    color: #0e1c37;
+    font-weight: 700;
     font-size: 50px;
-
 }
 
-.sobre {
-    background-color: #0e1c37;
-    min-height: 59vh;
+.servicos {
+    color: #0e1c37;
+    font-weight: 500;
 }
 
-.texto-sobre {
-    color: #ffffff;
-    font-weight: 300;
+.servicos h5 {
+    color: #0e1c37;
+    font-weight: 700;
 }
+
+.icon {
+    font-size: 70px;
+}
+
+@media (max-width: 767.98px) {
+    .border-md-right {
+      border-right: none !important;
+    }
+  }
 
 footer {
     background-color: #0e1c37;

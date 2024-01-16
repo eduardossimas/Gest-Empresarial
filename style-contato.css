@@ -47,21 +47,25 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.titulo {
+    background-color: #0e1c37;
+}
+
 .titulo h1{
-    color: #0e1c37;
+    color: #ffffff;
     font-weight: 800;
     font-size: 50px;
 
 }
 
-.sobre {
+.custom-button {
     background-color: #0e1c37;
-    min-height: 59vh;
+    color: #ffffff;
 }
 
-.texto-sobre {
+.custom-button:hover {
+    background-color: #c1ab89;
     color: #ffffff;
-    font-weight: 300;
 }
 
 footer {
