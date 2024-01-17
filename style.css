@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
 }
 
+.nav-icon {
+    margin-right: 5px;
+}
 
 .navbar-brand img {
     width: 250px;
@@ -88,40 +91,24 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-
-.diretrizes {
-    background-color: #ffffff;
-}
-
-.icon-diretriz {
-    background-color: #ffffff;
-    font-size: 2rem;
+.texto-desc {
     color: #0e1c37;
-    position: absolute;
-    top: -1.5rem; 
-    left: 50%;
-    transform: translateX(-50%);
+    border-right: 2px solid #c1ab89;
+    border-left: 2px solid #c1ab89;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.card-diretriz {
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
-    transition: transform .3s, box-shadow .3s;
+@media (max-width: 767.98px) {
+    .texto-desc {
+      border-right: none;
+      border-left: none;
+      border-top: 2px solid #c1ab89;
+      border-bottom: 2px solid #c1ab89;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
 }
-
-.card-diretriz:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-    transform: scale(1.05);
-}
-
-.card-title {
-    color: #c1ab89; 
-}
-
-.card-text {
-    color: #0e1c37; /* Cor do texto */
-}
-
 
 .inicio-background {
     position: relative;
@@ -257,10 +244,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.icon-bolinha {
+    font-size: 10em;
+}
+
 .icon-servico {
     color: #0e1c37;
     font-weight: 550;
-    margin-bottom: 20px;
+    font-size: 0.6em;
 }
 
 .servicos h3 {
