@@ -310,6 +310,44 @@ footer {
     color: #c1ab89; /* Muda a cor para vermelho quando o mouse passa sobre o ícone */
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
+
+.whatsapp-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+
 
 /* Estilizando a barra de rolagem vertical */
 ::-webkit-scrollbar {
