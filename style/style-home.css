@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .home {
     position: relative;
-    background-image: url('./images/nordwood-themes-kRNZiGKtz48-unsplash.jpg');
+    background-image: url('../images/nordwood-themes-kRNZiGKtz48-unsplash.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .inicio-background {
     position: relative;
-    background-image: url('./images/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-image: url('../images/sean-pollock-PhYq704ffdA-unsplash.jpg');
     background-size: cover;
     background-position: 10% center;
     height: 500px;

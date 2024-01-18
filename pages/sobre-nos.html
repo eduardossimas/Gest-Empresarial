@@ -7,7 +7,7 @@
 
     <link rel="icon" href="./images/Imagem do WhatsApp de 2023-12-29 à(s) 10.19.11_632442c2.jpg">
 
-    <link rel="stylesheet" href="style-contato.css">
+    <link rel="stylesheet" href="../style/style-sobre-nos.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
-    <title>Contato - Gest Empresarial</title>
+    <title>Quem Somos - Gest Empresarial</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     <header class="header">
         <nav class="navbar col-10 m-auto navbar-expand-lg">
             <a class="navbar-brand" href="./index.html">
-                <img src="./images/logo-completo.jpg" alt="Logo">
+                <img src="../images/logo-completo.jpg" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,54 +77,108 @@
         </nav>
     </header>
 
-    <div class="container-fluid mt-5 mb-5">
-        <div class="row titulo text-center d-flex justify-content-center align-items-center">
-            <div class="col-md-12 mt-5 mb-5">
-                <h1>Vamos agendar nossa primeira reunião?</h1>
+
+    <div class="container titulo text-center d-flex justify-content-center align-items-center mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Quem Somos?</h1>
             </div>
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-8 mb-4">
-                <h2>Entre em contato conosco</h2>
-                <form action="https://formsubmit.co/atendimento@gestempresarial.com.br" method="POST">
-                    <div class="form-group mt-3">
-                        <label for="nome">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required></textarea>
-                    </div>
-                    <input type="hidden" name="_captcha" value="false">
-                    <button type="submit" class="btn button custom-button">Enviar</button>
-                </form>
+    <div class="sobre d-flex align-items-center justify-content-center">
+        <div class="container mt-5 mb-5">
+            <div class="row" data-aos="fade-right">
+                <div class="col-12 col-md-4 img-logo d-flex align-items-center justify-content-center border-md-right"
+                    style="border-right: 2px solid #c1ab89;">
+                    <img class="img-fluid" src="../images/cortada.jpg" alt="Imagem">
+                </div>
+                <div class="col-12 col-md-8 pl-md-5 texto-sobre">
+                    <h5>
+                        Somos uma empresa comprometida em impulsionar o crescimento e o sucesso de micro e pequenas
+                        empresas por meio de serviços
+                        de consultoria, assessoria e BPO financeiro.
+                    </h5>
+                    <br>
+                    <h5>
+                        Atuamos como parceiros estratégicos, proporcionando soluções personalizadas e orientadas para
+                        resultados.
+                        Temos como objetivo enfrentar os desafios do mercado atual e assegurar o crescimento
+                        sustentável.
+                    </h5>
+                    <br>
+                    <h5>
+                        Nós, da GEST Empresarial, cuidamos dos números, enquanto os empresários se concentram no
+                        crescimento de suas empresas.
+                    </h5>
+                </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3 text-center d-flex justify-content-center align-items-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Fale direto no WhatsApp</h5>
-                        <p class="card-text">Clique no botão abaixo para iniciar uma conversa com nossa equipe</p>
-                        <a href="https://wa.me/553284630707" class="btn btn-success" target="_blank"><i
-                                class="bi bi-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+
+    <div class="diretrizes d-flex justify-content-center">
+        <div class="container m-3 d-flex justify-content-center">
+            <div class="row d-flex justify-content-center  mb-5 mt-5">
+                <div class="col-md-3 mb-3 mt-3" data-aos="fade-up">
+                    <div class="card-diretriz">
+                        <div class="card-body text-center">
+                            <i class="bi bi-bullseye icon-diretriz"></i>
+                            <h5 class="card-title text-center">Missão</h5>
+                            <p class="card-text">Estar ao lado e apoiar empreendedores e empresários a atingirem
+                                seus objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 mt-3" data-aos="fade-up">
+                    <div class="card-diretriz">
+                        <div class="card-body text-center">
+                            <i class="bi bi-eye-fill icon-diretriz"></i>
+                            <h5 class="card-title text-center">Visão</h5>
+                            <p class="card-text">Ser referência em soluções gerenciais para empreendedores e
+                                empresários de micro e pequenas empresas de Juiz de Fora e região.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mt-3" data-aos="fade-up">
+                    <div class="card-diretriz">
+                        <div class="card-body text-center">
+                            <i class="bi bi-award-fill icon-diretriz"></i>
+                            <h5 class="card-title text-center">Valores</h5>
+                            <div class="cart-text">
+                                <p class="card-text">
+                                <ul style="list-style-type: none;">
+                                    <li style="color: #0e1c37;"><span
+                                            style="color: #c1ab89; font-weight: 600;">Ética:</span> Em todas as
+                                        situações;</li>
+                                    <li style="color: #0e1c37;"><span
+                                            style="color: #c1ab89; font-weight: 600;">Comprometimento:</span> Com a
+                                        empresa e soluções propostas</li>
+                                    <li style="color: #0e1c37;"><span
+                                            style="color: #c1ab89; font-weight: 600;">Inovação:</span> Para não
+                                        estagnarmos;</li>
+                                    <li style="color: #0e1c37;"><span
+                                            style="color: #c1ab89; font-weight: 600;">Relacionamento próximo:</span>
+                                        Para entender melhor como podemos ajudar;</li>
+                                    <li style="color: #0e1c37;"><span style="color: #c1ab89; font-weight: 600;">Sempre
+                                            Aprendendo:</span> Assim conseguimos propor melhores soluções.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+
     <footer class="text-white pt-5 pb-4 mt-5">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-2 mx-auto">
-                    <img src="./images/logo-cortada.jpeg" alt="Logo da empresa" class="img-fluid">
+                    <img src="../images/logo-cortada.jpeg" alt="Logo da empresa" class="img-fluid">
                 </div>
                 <div class="col-md-3,5 mx-auto mt-3 mt-md-0">
                     <h5>Contato</h5>
@@ -159,6 +213,11 @@
             </div>
         </div>
     </footer>
+
+    <a href="https://wa.me/553284630707" class="whatsapp-button fade-in" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
 </body>
 
 </html>
