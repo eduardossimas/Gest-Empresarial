@@ -150,6 +150,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #c1ab89;
 }
 
+.icon-bolinha:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
 .icon-servico {
     position: absolute;
     top: 50%;
