@@ -91,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-.texto-desc {
+.texto-desc p {
+    font-size: 25px;
     color: #0e1c37;
     border-right: 2px solid #c1ab89;
     border-left: 2px solid #c1ab89;
